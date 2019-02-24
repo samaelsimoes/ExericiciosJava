@@ -3,8 +3,21 @@ public class Retangulo {
 	private Float comprimento = 1.0f;
 	private Float largura 	  = 1.0f;
 	
-	Validate val = new Validate();
-	
+	Validate val = new Validate();	
+
+	public static void main( String[] args ) {
+		
+		Float comprimento = Float.valueOf( args[0] );
+		Float largura 	  = Float.valueOf( args[1] );
+		
+		Retangulo retangulo = new Retangulo();
+		retangulo.setComprimento( comprimento );
+		retangulo.setComprimento( largura );
+		
+		retangulo.Calculo();
+
+	}
+
 	public Float getLargura() {
 		return largura;
 	}
@@ -22,7 +35,9 @@ public class Retangulo {
 	}	
 	
 	public void Calculo() {
-		System.out.println( " Área: " + getLargura() * getComprimento() );
-		System.out.println( " Perí­metro: " + ( getLargura() + getLargura() ) + ( getComprimento() + getComprimento() )   );
+		
+		double area = ( comprimento * largura );
+		System.out.println( " Área: " + area );
+		System.out.println( " Perímetro: " + ( getLargura() + getLargura() ) + ( getComprimento() + getComprimento() )   );
 	}
 }

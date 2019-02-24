@@ -1,3 +1,4 @@
+//Formato do arquivo iso 8859-1
 public class Fatura {
 	private String	cdFatura;
     private String  descricao;
@@ -13,6 +14,6 @@ public class Fatura {
 
     public void totalFatura() {
 		System.out.println( "Descrição: " + descricao );		
-		System.out.println( preco * quantidade );			
+		System.out.println( "Total: " + preco * quantidade );			
 	}
 }
