@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RetanguloTeste",
+            "request": "launch",
+            "mainClass": "RetanguloTeste",
+            "projectName": "exerciciojava_fd005c6b"
+        }
+    ]
+}
