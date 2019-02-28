@@ -12,8 +12,7 @@ public class Quadrilatero {
         this.p4 = p4;
     }
     
-    public Double area() {
+    /*public Double area() {
 
-    }
-
+    }*/
 }
