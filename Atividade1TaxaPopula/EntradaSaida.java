@@ -1,5 +1,5 @@
 public class EntradaSaida {
-	public static void mostraResultado( Object calculaPolacao ) {
+	public void mostraResultado( Double calculaPolacao ) {
 		System.out.println( calculaPolacao + " Pessoas ");		
 	}
 }
