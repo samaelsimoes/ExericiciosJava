@@ -14,20 +14,4 @@ public class Retangulo implements AreaCalcula {
         resposta_Retangulo = base * altura;
         return resposta_Retangulo;        
     }
-    
-    public Double getBase() {
-		return this.base;
-	}
-
-	public void setBase( Double base ) {
-		this.base = base;
-	}
-
-	public Double getAltura() {
-		return this.altura;
-	}
-
-	public void setAltura( Double altura ) {
-		this.altura = altura;
-	}
 }

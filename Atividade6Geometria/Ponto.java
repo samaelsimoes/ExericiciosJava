@@ -6,11 +6,11 @@ public class Ponto {
 		this.setX(x);
 		this.setY(y);
 	}
+
 	@Override
 	public String toString() {
 		return "Ponto -x:" + this.x +  " y:" + this.y;
 	}
-	
 	
 	public Double getX() {
 		return x;
@@ -19,10 +19,10 @@ public class Ponto {
 		return y;
 	}
 
-	public void setX(Double x) {
+	public void setX( Double x ) {
 		this.x = x;
 	}
-	public void setY(Double y) {
+	public void setY( Double y ) {
 		this.y = y;
 	}
 }
