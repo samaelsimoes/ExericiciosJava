@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TriangulosTeste",
+            "request": "launch",
+            "mainClass": "TriangulosTeste",
+            "projectName": "exerciciojava_fd005c6b"
+        }
+    ]
+}

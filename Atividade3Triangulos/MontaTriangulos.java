@@ -56,8 +56,8 @@ public class MontaTriangulos {
 	}
 
 	private void TrianguloA( Integer quantidadeGera ) {
-		for (Integer i = 0; i < quantidadeGera; i++) {
-			for (Integer j = 1; j <= i+1; j++) {
+		for( Integer i = 0; i < quantidadeGera; i++ ) {
+			for( Integer j = 1; j <= i+1; j++ ) {
 				System.out.print("*");
 			}			
 			System.out.println("");			
