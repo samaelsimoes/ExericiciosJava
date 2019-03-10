@@ -1,5 +1,4 @@
-public class TriangulosTestejav {
-
+public class TriangulosTeste {
 	public static void main( String[] args ) {
 		String selecionador    = String.valueOf(  args[0] );
         Integer quantidadeGera = Integer.valueOf( args[1] );
